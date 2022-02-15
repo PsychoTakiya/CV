@@ -15,6 +15,12 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Space+Grotesk:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap');
 
+        @media only screen and (max-width: 600px) {
+            #mobile {
+                margin-bottom: 50%;
+            }
+        }
+
         body {
             background-image: url('static/backDrop.jpg');
             background-repeat: no-repeat;
@@ -78,7 +84,7 @@
 
     <div id="resume"><br><br></div>
 
-    <div class="container " style=" height: 80vh; margin-bottom: 8.8%;">
+    <div class="container " id="mobile" style=" height: 80vh; margin-bottom: 8.8%; ">
         <div class="card border-dark mb-3 mx-auto my-5 "
             style="max-width: 780px; max-height: 440;box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.411);">
             <div class="row g-0 " style="height: 50%">
@@ -140,8 +146,8 @@
     </div>
 
 
-    <h2 class="text-center py-3" id="edu">EDUCATION</h2>
 
+    <h2 class="text-center py-3" id="edu">EDUCATION</h2>
     <div class="container py-2 mt-4 mb-4">
         <!-- timeline item 1 -->
         <div class="row no-gutters">
